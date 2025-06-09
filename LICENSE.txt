@@ -1,0 +1,26 @@
+Projeto: Site Oficial da Ordem Filhos de Andarilhodk
+
+Copyright (c) [2025] Filhos de Andarilhodk
+
+Este projeto é de propriedade coletiva da guilda Filhos de Andarilhodk e foi criado para ser o site oficial da referida ordem no universo de World of Warcraft.
+
+📜 Termos de Uso:
+
+1. **Uso da Guilda:**
+   - Este site, em sua forma atual e com seu conteúdo original (textos, símbolos, identidade visual, nomes e registros), é de uso exclusivo da guilda Filhos de Andarilhodk.
+   - Não é permitido copiar ou publicar este projeto ou seus conteúdos para se passar por representante oficial da Ordem ou criar duplicatas que possam confundir usuários ou membros.
+
+2. **Uso do Código como Base (Template):**
+   - É permitido o uso livre deste projeto como **base para estudos ou como template para novos projetos**, seja para fins pessoais, educacionais ou profissionais.
+   - Caso utilize este código como base para outro projeto, **deve-se alterar o conteúdo textual e a identidade visual** para refletir um novo propósito.
+   - Não é permitido criar novos projetos que tentem se passar pela guilda Filhos de Andarilhodk ou copiar diretamente sua identidade e propósito.
+
+3. **Créditos e Atribuição:**
+   - Não é obrigatório manter créditos visíveis no produto final derivado, mas recomenda-se, por respeito ao trabalho original, mencionar a inspiração ou o uso parcial deste projeto, quando apropriado.
+   - Exemplo sugerido de atribuição:
+     > "Baseado em projeto originalmente desenvolvido para a guilda Filhos de Andarilhodk."
+
+4. **Limitação de Responsabilidade:**
+   - A guilda Filhos de Andarilhodk não se responsabiliza por usos indevidos deste projeto nem por adaptações feitas por terceiros.
+
+Respeite o legado. Compartilhe com honra.
