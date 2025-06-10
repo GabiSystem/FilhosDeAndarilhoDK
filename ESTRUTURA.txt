@@ -16,6 +16,4 @@ FilhosDeAndarilhoDK/
 │   │
 │   └── fonts/                # Fontes personalizadas
 │
-└── pages/                    # Páginas internas (opcional)
-    ├── sobre.html            # Página "Sobre"
-    ├── contato.html          # Página "Contato"
+└── pages/                    # Páginas internas
