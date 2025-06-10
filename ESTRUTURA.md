@@ -1,4 +1,4 @@
-**FilhosDeAndarilhoDK/
+FilhosDeAndarilhoDK/
 ├── index.html                # Página principal
 ├── favicon.ico               # Ícone do site
 │
@@ -18,4 +18,4 @@
 │
 └── pages/                    # Páginas internas (opcional)
     ├── sobre.html            # Página "Sobre"
-    ├── contato.html          # Página "Contato"**
+    ├── contato.html          # Página "Contato"
