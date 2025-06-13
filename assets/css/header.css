@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   transition: all 0.3s ease-out;
+  z-index: 2;
 }
 @media (min-width: 768px) {
   .cabecalho {
@@ -59,6 +60,7 @@
 /* css do menu superior */
 .menu-container{
     margin-left: auto;
+    z-index: 2;
 }
 
 
