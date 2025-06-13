@@ -1,17 +1,17 @@
 /* CABEÇALHO */
 .cabecalho{
   position: relative;
-    background-color: rgb(60, 60, 60);
-    margin-top: 0px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    transition: all 0.3s ease-out;
+  background-color: rgb(60, 60, 60);
+  margin-top: 0px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease-out;
 }
 @media (min-width: 768px) {
   .cabecalho {
@@ -116,6 +116,9 @@
     display: none;
     margin-right: 25px;
     background-image: url(../img/icons/sanduiche.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .sanduiche-style.aberto{
     width: 50px;
@@ -129,6 +132,9 @@
     display: none;
     margin-right: 25px;
     background-image: url(../img/icons/fechar-sanduiche.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .sanduiche-style:active{
