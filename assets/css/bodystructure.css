@@ -5,17 +5,8 @@
     min-height: 100vh;
     min-width: 100vw;
     margin: 0;
-    background-color: rgb(40, 40, 40);
-}
-
-
-
-
-/*background */
-
-.background{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 0;
+    background-image: url("../img/backgrounds/ilidan.png"),url("../img/backgrounds/lichking.png"), linear-gradient(black 0 0);
+    background-position: top left,top right,center top;
+    background-repeat: no-repeat;
+    background-size: calc((100% - 1070px)/2),calc((100% - 1070px)/2),100%;
 }
