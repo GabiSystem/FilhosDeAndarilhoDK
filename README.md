@@ -27,19 +27,15 @@ ocultas que ameaçam o mundo.
 
 - HTML / CSS / JS
 - Hospedagem: OFFLINE
-- Estrutura inicial:
-  - `/index.html` — Página inicial
-  - `/carta/` — Carta Fundadora
-  - `/membros/` — Relatório dos membros
-  - `/expedicoes/` — Relatórios e aventuras
+- Estrutura inicial: `ESTRUTURA.txt`
 
 ---
 
 ## 🖋️ Responsáveis
 
-- **[GabiOpossum]** — Desenvolvimento e Co-Fundadora
-- **[Felipe Gonsioroski]** — Organização, conteúdo e revisão
-- **[Silvones]** — Conteúdo e revisão
+- **[GabiOpossum]** — Desenvolvimento e co-founder
+- **[Felipe Gonsioroski]** — Organização, conteúdo, revisão e co-founder
+- **[Silvones]** — Conteúdo, revisão e co-founder
 
 ---
 
