@@ -17,3 +17,9 @@ FilhosDeAndarilhoDK/
 │   └── fonts/                # Fontes personalizadas
 │
 └── pages/                    # Páginas internas
+    ├── membros.html
+    ├── comunidade.html
+    ├── carta.html
+    ├── aventuras.html
+    ├── screenshots.html
+    └── alistarse.html
