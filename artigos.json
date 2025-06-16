@@ -1,0 +1,18 @@
+[
+  {
+    "id": "artigo1",
+    "titulo": "Introdução ao JavaScript",
+    "descricao": "Aprenda os conceitos básicos de JavaScript",
+    "data": "2023-05-15",
+    "arquivo": "artigos/artigo1.html",
+    "tags": ["javascript", "programação"]
+  },
+  {
+    "id": "artigo2",
+    "titulo": "CSS Moderno",
+    "descricao": "Técnicas avançadas de CSS",
+    "data": "2023-06-20",
+    "arquivo": "artigos/artigo2.html",
+    "tags": ["css", "frontend"]
+  }
+]
