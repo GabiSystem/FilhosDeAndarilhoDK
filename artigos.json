@@ -17,10 +17,10 @@
   },
   {
     "id": "artigo3",
-    "titulo": "CSS Moderno",
-    "descricao": "Técnicas avançadas de CSS",
+    "titulo": "teste",
+    "descricao": "teste",
     "data": "2023-06-20",
-    "arquivo": "artigos/artigo2.html",
+    "arquivo": "artigos/artigo3.html",
     "tags": ["css", "frontend"]
   }
 ]
