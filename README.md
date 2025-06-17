@@ -18,7 +18,6 @@ ocultas que ameaçam o mundo.
 - Exibir a **Carta Fundadora** na íntegra
 - Registrar os **nomes dos fundadores e membros**
 - Publicar **relatos de expedições e descobertas**
-- Criar um **espaço de comunicação** e recursos úteis para os membros
 - Preservar e divulgar o **legado de AndarilhoDK**
 
 ---
