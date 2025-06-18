@@ -8,20 +8,20 @@
     margin: 0 auto;
     padding: 5px;
 }
-@media (min-width: 768px) {
+@media (min-width: 860px) {
   .principal {
     width: 100%; /* tablets e celulares */
   }
 }
 @media (min-width: 1024px) {
   .principal {
-    width: 80%;
-    max-width: 1536px; /* computadores */
+    width: 90%;
+    max-width: 978px; /* computadores */
   }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1080px) {
   .principal {
-    width: 1536px; /* Largura fixa baseada em 80% de 1920 */
+    width: 978px; /* Largura fixa baseada em 80% de 1920 */
     margin: 0 auto;
   }
 }

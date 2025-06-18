@@ -1,22 +1,30 @@
-/* CORPO BASE DO SITE */
+/* css da estrutura base do site*/
+
+html{
+    height: 100%;
+}
+
 .body-class{
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100vh;
     width: 100%;
     margin: 0;
+    overflow-x: hidden;
 
 }
-@media (min-width: 1024px){
+
+/* css do background */
+@media (min-width: 860px){
     .body-class{
         background-image: url("../img/backgrounds/ilidan.png"),url("../img/backgrounds/lichking.png"), linear-gradient(black 0 0);
         background-position: top left,top right,center top;
         background-repeat: no-repeat;
-        background-size: calc((100% - 80%)/2),calc((100% - 80%)/2),100%;
+        background-size: calc((100% - 90%)/2),calc((100% - 90%)/2),100%;
     }
 }
-@media (min-width: 1920px){
+@media (min-width: 1080px){
     .body-class{
-        background-size: calc((100% - 1536px)/2),calc((100% - 1536px)/2),100%;
+        background-size: calc((100% - 978px)/2),calc((100% - 978px)/2),100%;
     }
 }
