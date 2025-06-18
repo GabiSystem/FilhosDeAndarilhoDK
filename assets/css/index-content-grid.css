@@ -1,0 +1,32 @@
+.content-grid{
+    display: grid;
+    padding: 0 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+
+.primary-content{
+    display: block;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    border: solid;
+    border-color: red;
+    min-height: 400px;
+}
+
+.last-videos{
+    display: block;
+    border: solid;
+    border-color: blue;
+    grid-row: 1 / span 2;
+}
+
+.bottom-bar{
+    display: block;
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    border: solid;
+    border-color: green;
+    min-height: 150px;
+}
