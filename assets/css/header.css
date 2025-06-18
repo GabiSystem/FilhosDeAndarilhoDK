@@ -20,13 +20,13 @@
 }
 @media (min-width: 1024px) {
   .cabecalho {
-    width: 90%;
-    max-width: 978px; /* computadores */
+    width: 70%;
+    max-width: calc(1920 - 30%); /* computadores */
   }
 }
-@media (min-width: 1080px) {
+@media (min-width: 1920px) {
   .cabecalho {
-    width: 978px; /* Largura fixa baseada em 90% de 1080 */
+    width: calc(1920 - 30%); /* Largura fixa baseada em 90% de 1080 */
     margin: 0 auto;
   }
 }

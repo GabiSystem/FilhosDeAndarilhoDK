@@ -1,13 +1,13 @@
 /* css da estrutura base do site*/
 
 html{
-    height: 100%;
+    min-height: 100%;
 }
 
 .body-class{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100%;
     width: 100%;
     margin: 0;
     overflow-x: hidden;
@@ -20,11 +20,11 @@ html{
         background-image: url("../img/backgrounds/ilidan.png"),url("../img/backgrounds/lichking.png"), linear-gradient(black 0 0);
         background-position: top left,top right,center top;
         background-repeat: no-repeat;
-        background-size: calc((100% - 90%)/2),calc((100% - 90%)/2),100%;
+        background-size: calc((100% - 70%)/2),calc((100% - 70%)/2),100%;
     }
 }
-@media (min-width: 1080px){
+@media (min-width: 1920px){
     .body-class{
-        background-size: calc((100% - 978px)/2),calc((100% - 978px)/2),100%;
+        background-size: calc((100% - (1920px - 30%))/2),calc((100% - (1920px - 30%))/2),100%;
     }
 }

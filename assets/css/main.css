@@ -15,13 +15,13 @@
 }
 @media (min-width: 1024px) {
   .principal {
-    width: 90%;
-    max-width: 978px; /* computadores */
+    width: 70%;
+    max-width: calc(1920 - 30%); /* computadores */
   }
 }
-@media (min-width: 1080px) {
+@media (min-width: 1920px) {
   .principal {
-    width: 978px; /* Largura fixa baseada em 80% de 1920 */
+    width: calc(1920px - 30%); /* Largura fixa baseada em 80% de 1920 */
     margin: 0 auto;
   }
 }
