@@ -25,6 +25,6 @@ html{
 }
 @media (min-width: 1920px){
     .body-class{
-        background-size: calc((100% - (1920px - 30%))/2),calc((100% - (1920px - 30%))/2),100%;
+        background-size: calc((100% - (1920px - 40%))/2),calc((100% - (1920px - 40%))/2),100%;
     }
 }

@@ -16,12 +16,12 @@
 @media (min-width: 1024px) {
   .principal {
     width: 70%;
-    max-width: calc(1920 - 30%); /* computadores */
+    max-width: calc(1920 - 40%); /* computadores */
   }
 }
 @media (min-width: 1920px) {
   .principal {
-    width: calc(1920px - 30%); /* Largura fixa baseada em 80% de 1920 */
+    width: calc(1920px - 40%); /* Largura fixa baseada em 80% de 1920 */
     margin: 0 auto;
   }
 }
