@@ -32,8 +32,8 @@ ocultas que ameaçam o mundo.
 
 ## 🖋️ Responsáveis
 
+- **[Felipe Gonsioroski]** — Organização, conteúdo, revisão e Fundador da Guilda
 - **[GabiOpossum]** — Desenvolvimento e co-founder
-- **[Felipe Gonsioroski]** — Organização, conteúdo, revisão e co-founder
 - **[Silvones]** — Conteúdo, revisão e co-founder
 
 ---
