@@ -1,0 +1,20 @@
+{
+    "artigos": [
+        {
+            "id": 1,
+            "titulo": "O ASSUSTADOR PORTÃO DA IRA",
+            "conteudo": "Enquanto me aventurava pelas terras de Nortúndria, me contaram sobre a grandiosidade e opressão que...",
+            "autor": "Kallnorad",
+            "data": "2025-06-20",
+            "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article1.html"
+        },
+        {
+            "id": 2,
+            "titulo": "PLACE HOLDER",
+            "conteudo": "PLACE HOLDER PLACE HOLDER PLACE HOLDER PLACE HOLDER...",
+            "autor": "PLACEHOLDER",
+            "data": "2025-06-20",
+            "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article2.html"
+        }
+    ]
+}

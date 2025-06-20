@@ -1,0 +1,42 @@
+/*css geral dos artigos */
+.article{
+    margin: 20px 20px;
+}
+.article hr{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.art-title{
+    font-size: 40px;
+    color: black;
+}
+
+.post-data-grid{
+    display: grid;
+    color: rgba(0, 0, 0, 0.7);
+    grid-template-columns: 1fr 1fr;
+}
+
+.post-data-grid a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.post-data-grid a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.art-img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+.art-text{
+    margin: 0 auto;
+    width: 90%;
+    color: black;
+    font-size: 17px;
+    text-align: left;
+    white-space: pre-line;
+}

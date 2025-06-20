@@ -21,7 +21,7 @@
 }
 @media (min-width: 1920px) {
   .principal {
-    width: calc(1920px - 40%); /* Largura fixa baseada em 80% de 1920 */
+    width: calc(1920px - 40%); /* Largura fixa baseada em 60% de 1920 */
     margin: 0 auto;
   }
 }
