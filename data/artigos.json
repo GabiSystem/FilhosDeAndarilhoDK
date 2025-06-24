@@ -1,31 +1,20 @@
 {
     "artigos": [
         {
-            "id": 0,
+            "id": 1,
             "titulo": "O ASSUSTADOR PORTÃO DA IRA",
             "conteudo": "Enquanto me aventurava pelas terras de Nortúndria, me contaram sobre a grandiosidade e opressão que...",
             "autor": "Kallnorad",
             "data": "2025-06-20",
-            "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article1.html",
-            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/pages/articles/assets/img/article1-1.webp"
+            "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article1.html"
         },
         {
-            "id": 1,
+            "id": 2,
             "titulo": "PLACE HOLDER",
             "conteudo": "PLACE HOLDER PLACE HOLDER PLACE HOLDER PLACE HOLDER...",
             "autor": "PLACEHOLDER",
             "data": "2025-06-20",
-            "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article2.html",
-            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/pages/articles/assets/img/article1-1.webp"
-        },
-        {
-            "id": 2,
-            "titulo": "PLACE HOLDER 2",
-            "conteudo": "PLACE HOLDER 2 PLACE HOLDER 2 PLACE HOLDER 2 PLACE HOLDER 2...",
-            "autor": "PLACEHOLDER 2",
-            "data": "2025-06-25",
-            "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article2.html",
-            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/pages/articles/assets/img/article1-1.webp"
+            "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article2.html"
         }
     ]
 }

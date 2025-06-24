@@ -1,0 +1,63 @@
+.container-aventuras{
+    margin: 0 auto;
+    padding: 15px;
+    justify-items: center;
+    text-align: center;
+}
+.container-aventuras hr{
+    color: rgb(0, 0, 0, 0.3);
+}
+
+.header-main{
+    color: black;
+    font-size: 25px;
+}
+
+.container-artigos{
+    padding-top: 10px;
+    text-align: left;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.aventura-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 5px;
+    padding-bottom: 10px;
+}
+.aventura-grid:hover{
+    border: solid 1px rgb(0, 0, 0, 0.3);
+    background-color: rgba(194, 194, 194, 0.3)
+
+}
+
+.artigo-imagem{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.conteudo-titulo a{
+    font-size: 120%;
+    color: black;
+    font-weight: bold;
+}
+.artigo-conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-texto{
+    font-size: 100%;
+    font-weight:lighter;
+}
+.conteudo-texto a{
+    font-size: 100%;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.data{
+    color: rgb(0, 0, 0, 0.7);    
+}
