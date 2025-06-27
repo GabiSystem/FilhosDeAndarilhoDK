@@ -8,7 +8,7 @@
         },
         {
             "url": "https://www.youtube.com/watch?v=F_s8EN7vq1U",
-            "id": "F_s8EN7vq1",
+            "id": "F_s8EN7vq1U",
             "titulo": "A História das Expansões de World of Warcraft: WoW Clássico.",
             "canal": "Biblioteca Secreta de Azeroth"
         },
@@ -17,6 +17,18 @@
             "id": "q95s7i6GPEg",
             "titulo": "GUL'DAN - O VILÃO MAIS MALIGNO DE WARCRAFT",
             "canal": "Tilt Entretenimento"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=1D3Nrl2c0L0",
+            "id": "1D3Nrl2c0L0",
+            "titulo": "WoW Classic Hardcore: Aceitei o DESAFIO Sem Saber Jogar! Será Que Sobrevivo?",
+            "canal": "BrenoMMORPG"
+        },
+        {
+            "url": "https://www.youtube.com/watch?v=ABkVsXKgdUE",
+            "id": "ABkVsXKgdUE",
+            "titulo": " A cosmologia de World of Warcraft e os tipos de magia. ",
+            "canal": "Biblioteca Secreta de Azeroth"
         }
     ]
 }
