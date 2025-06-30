@@ -8,6 +8,15 @@
             "data": "2025-06-20",
             "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article1.html",
             "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/pages/articles/assets/img/article1-1.webp"
+        },
+        {
+            "id": 1,
+            "titulo": "Um pouco de Zul'dazar em Zul'drak.",
+            "conteudo": "Viver em meio a elfos noturnos me afastou um pouco da minha origem. Os elfos da clareira da Lua...",
+            "autor": "Kallnorad",
+            "data": "2025-06-30",
+            "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article2.html",
+            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/pages/articles/assets/img/article2-1.webp"
         }
     ]
 }
