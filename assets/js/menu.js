@@ -1,3 +1,5 @@
+//js usado para funcionalidade do menu superior
+
 document.addEventListener('DOMContentLoaded', () => {
     const sanduicheBtn = document.getElementById('sanduicheMobile');
     sanduicheBtn.classList.add('sanduiche-style');
