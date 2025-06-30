@@ -1,4 +1,7 @@
 /* css da estrutura base do site*/
+*{
+    scrollbar-width: thin;
+}
 
 html{
     min-height: 100%;
