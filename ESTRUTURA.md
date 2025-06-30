@@ -4,8 +4,6 @@ Este documento apresenta a estrutura de arquivos e pastas do projeto **FilhosDeA
 
 ---
 
-## 🌐 Raiz do Projeto
-
 ```plaintext
 FilhosDeAndarilhoDK/
 ├── index.html              # Página principal do site
