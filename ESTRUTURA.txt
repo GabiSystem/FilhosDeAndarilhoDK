@@ -1,25 +1,51 @@
 FilhosDeAndarilhoDK/
-├── index.html                # Página principal
-├── favicon.ico               # Ícone do site
-│
-├── assets/                   # Todos os recursos estáticos
-│   │
-│   ├── css/                  # Arquivos CSS
-│   │
-│   ├── js/                   # Arquivos JavaScript
-│   │
-│   ├── img/                  # Imagens
-│   │   ├── icons/            # Ícones
-│   │   ├── logos/            # Logos
-│   │   ├── backgrounds/      # Imagens de fundo
-│   │   └── content/          # Imagens do conteúdo
-│   │
-│   └── fonts/                # Fontes personalizadas
-│
-└── pages/                    # Páginas internas
-    ├── membros.html
-    ├── comunidade.html
-    ├── carta.html
-    ├── aventuras.html
-    ├── screenshots.html
-    └── alistarse.html
+│   ESTRUTURA.txt
+│   favicon.ico
+│   index.html
+│   LICENSE.txt
+│   README.md
+│   
+├───assets
+│   ├───css
+│   │       aventuras-content.css
+│   │       bodystructure.css
+│   │       carta.css
+│   │       header.css
+│   │       index-content-grid.css
+│   │       main.css
+│   │       members.css
+│   │       
+│   ├───img
+│   │   ├───backgrounds
+│   │   ├───content
+│   │   ├───icons
+│   │   └───logos
+│   │           
+│   └───js
+│           articles.js
+│           mainCnt.js
+│           menu.js
+│           vidList.js
+│           
+├───data
+│       artigos.json
+│       carta-assinada.pdf
+│       videos.json
+│       
+└───pages
+    │   alistarse.html
+    │   aventuras.html
+    │   carta.html
+    │   comunidade.html
+    │   membros.html
+    │   screenshots.html
+    │   
+    ├───articles
+    │   │   
+    │   └───assets
+    │       ├───css
+    │       │       article-main.css
+    │       │       
+    │       └───img
+    │               
+    └───screenshots
