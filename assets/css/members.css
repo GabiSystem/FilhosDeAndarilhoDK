@@ -1,4 +1,14 @@
-.section-founders{
+
+/* css geral das seções de membros */
+.section-listening{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.montserrat-title{
     color: black;
-    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.2em;
 }
