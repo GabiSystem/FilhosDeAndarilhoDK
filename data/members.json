@@ -3,12 +3,27 @@
         { 
             "id": 0, 
             "nome": "Kallnorad",
-            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/Kallnorad.jpg",
-            "btag": "Btag: Calovfelipe#15555",
-            "instagram": "null",
-            "youtube": "Canal do youtube: https://www.youtube.com/@PaiGamer-f5v",
-            "discord": "null",
-            "Lore": ""
+            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/Kallnorad.jpg"
+        },
+        { 
+            "id": 1, 
+            "nome": "Silvones",
+            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/Silvones.jpg"
+        },
+        { 
+            "id": 2, 
+            "nome": "Dougmuu",
+            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/Dougmuu.jpg"
+        },
+        { 
+            "id": 3, 
+            "nome": "Talaena",
+            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/talaena.jpg"
+        },
+        { 
+            "id": 4, 
+            "nome": "Violet",
+            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/Violet.jpg"
         }
     ],
 
