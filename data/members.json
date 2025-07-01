@@ -4,14 +4,11 @@
             "id": 0, 
             "nome": "Kallnorad",
             "img": "../assets/img/content/members/Kallnorad.jpg"
-
         },
         { 
             "id": 1, 
             "nome": "Silvones",
-
             "img": "../assets/img/content/members/Silvones.jpg"
-
         },
         { 
             "id": 2, 
@@ -27,11 +24,10 @@
             "id": 4, 
             "nome": "Violet",
             "img": "../assets/img/content/members/Violet.jpg"
-
         }
     ],
 
-    "Members":[
+    "members":[
         { 
             "id": 0, 
             "nome": "Gondev",
