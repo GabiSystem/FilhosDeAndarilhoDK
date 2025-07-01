@@ -16,7 +16,7 @@ function writeFounder(foundersData){
     const container = document.getElementById('dispFounders');
     founders.forEach( founders =>
         container.innerHTML += `<div id=${founders.id} class="member-portrait">
-                                    <a href="${founders.url}">
+                                    <a href="membros/${founders.nome}.html">
                                         <img src="${founders.img}"> <br>
                                         <div> ${founders.nome} </div>
                                     </a>
@@ -29,13 +29,12 @@ function writeMembers(membersData){
     const container = document.getElementById('dispMembers');
     members.forEach( members =>
         container.innerHTML += `<div id=${members.id} class="member-portrait">
-                                    <a href="${members.url}">
+                                    <a href="membros/${members.nome}.html">
                                         <img src="${members.img}"> <br>
                                         <div> ${members.nome} </div>
                                     </a>
                                 </div>`
     );
-
 }
 
 //função para os exmembros memoraveis
@@ -44,7 +43,7 @@ function writeExMembers(exMembersData){
     const container = document.getElementById('dispEx');
     exMembers.forEach( exMembers =>
         container.innerHTML += `<div id=${exMembers.id} class="member-portrait">
-                                    <a href="${exMembers.url}">
+                                    <a href="membros/${exMembers.nome}.html">
                                         <img src="${exMembers.img}"> <br>
                                         <div> ${exMembers.nome} </div>
                                     </a>
