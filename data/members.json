@@ -3,35 +3,52 @@
         { 
             "id": 0, 
             "nome": "Kallnorad",
-            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/Kallnorad.jpg"
+            "img": "../assets/img/content/members/Kallnorad.jpg"
+
         },
         { 
             "id": 1, 
             "nome": "Silvones",
-            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/Silvones.jpg"
+
+            "img": "../assets/img/content/members/Silvones.jpg"
+
         },
         { 
             "id": 2, 
             "nome": "Dougmuu",
-            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/Dougmuu.jpg"
+            "img": "../assets/img/content/members/Dougmuu.jpg"
         },
         { 
             "id": 3, 
             "nome": "Talaena",
-            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/talaena.jpg"
+            "img": "../assets/img/content/members/Talaena.jpg"
         },
         { 
             "id": 4, 
             "nome": "Violet",
-            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/assets/img/content/members/Violet.jpg"
+            "img": "../assets/img/content/members/Violet.jpg"
+
         }
     ],
 
     "Members":[
-
+        { 
+            "id": 0, 
+            "nome": "Gondev",
+            "img": "../assets/img/content/members/Gondev.jpg"
+        },
+        { 
+            "id": 1, 
+            "nome": "PrimoRyu",
+            "img": "../assets/img/content/members/PrimoRyu.jpg"
+        }
     ],
 
     "exMembers": [
-
+        { 
+            "id": 1, 
+            "nome": "AndarilhoDK",
+            "img": "../assets/img/content/members/AndarilhoDK.jpg"
+        }
     ]
 }
