@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+
+.perfil-container{
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: calc(100vh - 120px);
+}
+.profile-body{
+    margin: 5px;
+    min-height: calc(100vh - 130px);
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+    border-radius: 70px 70px 25px 25px;
+}
+
+.dados-container{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 20px 5px 5px;
+}
+.profile-photo{
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.profile-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.profile-data{
+    margin: auto 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.profile-name{
+    color: black;
+    font-size: 2.5em;
+    font-family: 'IM Fell English', serif;
+}
+.profile-data hr {
+    width: 100%;
+    border: 1px solid #ccc; /* ou a cor que quiser */
+    
+}
+.profile-redes{
+    display: flex;
+    height: 50px;
+}
+.profile-redes img{
+    height: 100%;
+}

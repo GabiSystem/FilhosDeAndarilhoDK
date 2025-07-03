@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     sanduicheBtn.classList.add('sanduiche-style');
 
     sanduicheBtn.addEventListener('click', abrirFechar);
-});
+    }
+)
 
 function abrirFechar() {
     const botao = document.getElementById('sanduicheMobile');

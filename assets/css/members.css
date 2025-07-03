@@ -20,6 +20,7 @@
 }
 .member-portrait{
     max-width: 130px;
+    text-align: center;
 }
 .grid-content a{
     text-decoration: none;

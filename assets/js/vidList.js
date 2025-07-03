@@ -1,5 +1,4 @@
 // js usado para mostrar randomicamente os videos sugeridos pela comunidade
-
 //função que vai puxar o JSON com a lista de videos recomendados
 async function pullVidList() {
     try{
@@ -7,10 +6,9 @@ async function pullVidList() {
         const data = await response.json();
         const videos = data.videos;
         selectShow(videos);
-
     }   catch(error){ console.log(error)}
 }
-
+//função que randomiza a lista e mostra 3 videos recomendados
 function selectShow(videosarray){
     const copia = [...videosarray];
     for(let i = copia.length - 1; i > 0; i--){
@@ -28,9 +26,6 @@ function selectShow(videosarray){
                                     </a>
                                 </div> `
     )
-
-    console.log(selecionados)
-    
 }
-
+//inicia as funções quando o html termina de carregar
 document.addEventListener('DOMContentLoaded', pullVidList)
