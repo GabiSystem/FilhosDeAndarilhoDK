@@ -1,6 +1,15 @@
 //js para mostrar os artigos em ordem decrescente na pagina "aventuras"
 /* função que vai carregar os html e solicitar a criação do html */
-async function loadJson() {
+async function loadMemberJson() {
+    try{
+        const response = await fetch(`https://gabisystem.github.io/FilhosDeAndarilhoDK/data/artigos.json?nocache=${Date.now()}`);
+        const data = await response.json();
+        const listaArtigos = data.artigos;
+        criarHtml(listaArtigos);
+
+    } catch{ console.log("nao foi possivel carregar o json") }
+}
+async function loadArticleJson() {
     try{
         const response = await fetch(`https://gabisystem.github.io/FilhosDeAndarilhoDK/data/artigos.json?nocache=${Date.now()}`);
         const data = await response.json();

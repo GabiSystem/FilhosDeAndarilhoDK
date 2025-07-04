@@ -4,12 +4,12 @@
 /*css do corpo do perfil*/
 .perfil-container{
     display: flex;
-    min-width: 100%;
-    min-height: calc(100vh - 120px);
+    padding: 5px;
+    min-width: 95%;
+    height: fit-content;
 }
 .profile-body{
-    margin: 5px;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,6 @@
     display: flex;
     flex-direction: row;
     padding: 10px;
-    padding-left: 30px;
 }
 .profile-photo{
     width: 130px;
@@ -30,7 +29,7 @@
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
-    border: 6px solid white;
+    box-shadow: 3px 3px 5px gray;
 }
 .profile-photo img{
     width: 100%;
@@ -55,17 +54,117 @@
 }
 /*css do flex do corpo*/
 .content-flexbox{
-    margin: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+/* flex na esquerda */
+.flex-left{
+    max-width: 40%;
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.redes-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border-radius: 25px;
+    border: 0px;
+    height: fit-content;
+    box-shadow: 3px 3px 3px gray;
+    padding: 15px;
+}.textredes{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.redes-container a{
+    color: black;
+    text-decoration: none;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    border: 50%;
+}
+.lore-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    border: 0px;
+    padding: 15px;
+    min-height: 200px;
+    box-shadow: 3px 3px 3px gray;
+}
+.lore-title{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.lore-content{
+    font: 1em;
+}
+/* flex na direita */
+.flex-right{
+    width: 58%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
 }
-.flex-left{
+.articles-flex{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    height: 445px;
+    border: 0px;
+    padding: 15px;
+    box-shadow: 3px 3px 3px gray;
+}
+.articles-content{
+    width: 100%;
+}
+
+/*css das aventuras dispostas no perfil */
+.post-div-title{
+    color: black;
+    font-size: 1.5em;
+}
+.post-aventura-flex{
+    width: 100%;
+    height: 100px;
     display: flex;
     flex-direction: row;
+    overflow-y: auto;
 }
-.bio-container{
-    color: black;
+.post-aventura-flex:hover{
+    background-color: rgb(204, 204, 204);
 }
-.redes-container{
+.aventura-img-container{
+    width: auto;
+    height: 90%;
+} .aventura-img-container img{
+    height: 100%;
+}
+.post-aventura-content{
+    padding: 5px;
+}
+.conteudo-titulo{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.conteudo-titulo a{
     color: black;
+    text-decoration: none;
+}
+.conteudo-texto{
+    font-size: 0.7em;
 }
