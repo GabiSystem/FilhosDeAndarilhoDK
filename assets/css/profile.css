@@ -1,5 +1,7 @@
+/*import da fonte im fell..*/
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 
+/*css do corpo do perfil*/
 .perfil-container{
     display: flex;
     min-width: 100%;
@@ -14,6 +16,7 @@
     background-color: rgb(230, 230, 230);
     border-radius: 50px 50px 25px 25px;
 }
+/*css dos dados principais*/
 .dados-container{
     display: flex;
     flex-direction: row;
@@ -47,10 +50,22 @@
     font-family: 'IM Fell English', serif;
     border-bottom: 3px solid rgb(180, 180, 180);
 }
-.profile-redes{
-    display: flex;
-    height: 50px;
+.profile-char-title{
+    color: black;
 }
-.profile-redes img{
-    height: 100%;
+/*css do flex do corpo*/
+.content-flexbox{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-left{
+    display: flex;
+    flex-direction: row;
+}
+.bio-container{
+    color: black;
+}
+.redes-container{
+    color: black;
 }

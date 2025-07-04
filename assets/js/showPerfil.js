@@ -44,37 +44,59 @@ async function workData(){
     }
     htmlWriter(userData);
 }
-
-function redeContructor(btag, youtube, insta){
+//função para construir o html das redes sociais
+function redeContructor(discord, btag, youtube, youtag, insta){
     let resultReturn = '';
+     if (discord && discord.trim() !== ''){
+        const tag = discord;
+        resultReturn += `<a>
+                            <div class="icon">
+                                <img src="../assets/img/icons/disc.jpg">
+                                <span>${tag}</span>
+                            </div>
+                        </a>`
+    }
     if (btag && btag.trim() !== ''){
-        const link = btag;
-        resultReturn += `<a href="${link}">
-                                    <div class="icon">
-                                        <img src="../assets/img/icons/btag.jpg">
-                                    </div>`
+        const tag = btag;
+        resultReturn += `<a>
+                            <div class="icon">
+                                <img src="../assets/img/icons/btag.jpg">
+                                <span>${tag}</span>
+                            </div>
+                        </a>`
     }
     if (youtube && youtube.trim() !== ''){
         const link = youtube;
+        const name = youtag;
         resultReturn += `<a href="${link}">
                                     <div class="icon">
                                         <img src="../assets/img/icons/ytb.jpg">
+                                        <spam>${name}</spam>
                                     </div>`
     }
     if (insta && insta.trim() !== ''){
-        const link = insta;
-        resultReturn += `<a href="${link}">
+        const arroba = insta;
+        resultReturn += `<a href="https://www.instagram.com/${arroba}}/">
                                     <div class="icon">
                                         <img src="../assets/img/icons/insta.jpg">
+                                        <spam>@${arroba}</spam>
                                     </div>`
     }
     return(resultReturn);
+}
+function titleConstructor(title){
+    let container = '';
+    if(title && title.trim() !==''){
+        container += `${title}`
+        return(container)
+    } else { return(container)}
 }
 //função que vai escrever o html de acordo com os dados do perfil
 function htmlWriter(userData){
     const user = userData;
     const container = document.getElementById('perfilContainer');
-    const redes = redeContructor(user.btag, user.youtube, user.insta);
+    const redes = redeContructor(user.discord, user.btag, user.youtube, user.youtag, user.insta);
+    const title = titleConstructor(user.title);
     container.innerHTML ='';
     container.innerHTML += `<div class="profile-body">
                                 <div class="dados-container">
@@ -86,15 +108,26 @@ function htmlWriter(userData){
                                             ${user.nome}
                                         </div>
                                         <hr>
-                                        <div class="profile-redes">
-                                            ${redes}
+                                        <div class="profile-char-title">
+                                           ${title}
                                         </div>
                                     </div>
                                 </div>
-                                
+                                <div class="content-flexbox">
+                                    <div class="flex-left">
+                                        <div class"bio-container">
+                                            lore / bio${user.lore}
+                                        </div>
+                                        <div class="redes-container">
+                                            redes sociais${redes}
+                                        </div>
+                                    </div>
+                                    <div class="flex-right">
+                                        <div class="articles-flex">
+                                        <div>
+                                    </div>
+                                </div>
                             </div>`
-    
 }
-
 //inicia a função assim que o site carrega
 document.addEventListener("DOMContentLoaded", workData)
