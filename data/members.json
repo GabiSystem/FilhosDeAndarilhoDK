@@ -4,45 +4,60 @@
             "id": 0,
             "nome": "Kallnorad",
             "img": "../assets/img/content/members/Kallnorad.jpg",
+            "discord":"felipegonsioroski",
             "insta": "",
-            "youtube": "",
-            "btag": "",
-            "lore": ""
+            "youtube": "https://www.youtube.com/@PaiGamer-f5v",
+            "youtag":"Pai Gamer",
+            "btag": "Calovfelipe#15555",
+            "title":"Suspiro da Floresta Antiga",
+            "lore": "Kallnorad é uma trolleza zandalari filha de dois comerciantes que foram mortos na Costa Negra enquanto trilhavam um caminho comercial. Uma Elfa Noturna Druida chamada Tramaal que caminhava pelas sombras acabou vendo o acidente e, ao procurar sobreviventes, acabou por encontrar uma bebê zandalari, que nomeou a pequena trolleza com o nome de Kallnorad. Desde muito cedo Kallnorad tinha afinidade com a natureza e em suas aulas no círculo cenariano acabou se adequando muito com o druidismo. Contudo, sua natureza selvagem nunca deixou que ela fosse pacífica em demasiado, se aproximando da forma mais brutal do druidismo chamada de proteção. Kallnorad cresceu e aprendeu em meio aos Elfos. Porém, na chegada da vida adulta, Tramaal direciona ela ao caminho da Horda, pois a afinidade com uma Trolleza seria mais 'simples'. Thrall recebeu a jovem trolleza com a mensagem de Tramaal. Por conseguinte, pelo respeito e honra que o chefe guerreiro tem que ter, Thrall aceita a presença de Kallnorad na Horda, sendo assim, a primeira Zandalari a ser unida a Horda."
         },
         "silvones": {
             "id": 1,
             "nome": "Silvones",
             "img": "../assets/img/content/members/Silvones.jpg",
+            "discord":"",
             "insta": "",
             "youtube": "",
+            "youtag":"",
             "btag": "",
+            "title":"",
             "lore": ""
         },
         "dougmuu": {
             "id": 2,
             "nome": "Dougmuu",
             "img": "../assets/img/content/members/Dougmuu.jpg",
+            "discord":"",
             "insta": "",
             "youtube": "",
+            "youtag":"",
             "btag": "",
+            "title":"",
             "lore": ""
         },
         "talaena": {
             "id": 3,
             "nome": "Talaena",
             "img": "../assets/img/content/members/Talaena.jpg",
+            "discord":"gabiopossum",
             "insta": "",
-            "youtube": "",
+            "youtube": "https://www.youtube.com/@GabiOpossum",
+            "youtag":"Gäbi Opossum",
             "btag": "",
+            "title":"",
             "lore": ""
         },
         "violet": {
             "id": 4,
             "nome": "Violet",
             "img": "../assets/img/content/members/Violet.jpg",
+            "discord":"",
             "insta": "",
             "youtube": "",
+            "youtag":"",
             "btag": "",
+            "title":"",
             "lore": ""
         }
     },
@@ -51,18 +66,24 @@
             "id": 0,
             "nome": "Gondev",
             "img": "../assets/img/content/members/Gondev.jpg",
+            "discord":"",
             "insta": "",
             "youtube": "",
+            "youtag":"",
             "btag": "",
+            "title":"",
             "lore": ""
         },
         "primoryu": {
             "id": 1,
             "nome": "PrimoRyu",
             "img": "../assets/img/content/members/PrimoRyu.jpg",
+            "discord":"",
             "insta": "",
             "youtube": "",
+            "youtag":"",
             "btag": "",
+            "title":"",
             "lore": ""
         }
     },
@@ -71,9 +92,12 @@
             "id": 1,
             "nome": "AndarilhoDK",
             "img": "../assets/img/content/members/AndarilhoDK.jpg",
+            "discord":"",
             "insta": "",
             "youtube": "",
+            "youtag":"",
             "btag": "",
+            "title":"",
             "lore": ""
         }
     }

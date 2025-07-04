@@ -10,7 +10,7 @@
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  z-index: 2;
+  z-index: 3;
 }
 @media (min-width: 860px) {
   .cabecalho {
@@ -58,7 +58,7 @@
 /* css do menu superior */
 .menu-container{
     margin-left: auto;
-    z-index: 2;
+    z-index: 3;
 }
 
 
@@ -88,7 +88,7 @@
     background-color: #333;
     min-width: fit-content;
     white-space: nowrap;
-    z-index: 2;
+    z-index: 3;
     flex-direction: column;
 }
 .drop-menu:hover .drop-menu-content {

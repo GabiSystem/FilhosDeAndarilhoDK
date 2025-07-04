@@ -1,0 +1,71 @@
+/*import da fonte im fell..*/
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+
+/*css do corpo do perfil*/
+.perfil-container{
+    display: flex;
+    min-width: 100%;
+    min-height: calc(100vh - 120px);
+}
+.profile-body{
+    margin: 5px;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50px 50px 25px 25px;
+}
+/*css dos dados principais*/
+.dados-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    padding-left: 30px;
+}
+.profile-photo{
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    border: 6px solid white;
+}
+.profile-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.profile-data{
+    margin: auto 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.profile-name{
+    color: black;
+    font-size: 2.5em;
+    font-family: 'IM Fell English', serif;
+    border-bottom: 3px solid rgb(180, 180, 180);
+}
+.profile-char-title{
+    color: black;
+}
+/*css do flex do corpo*/
+.content-flexbox{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-left{
+    display: flex;
+    flex-direction: row;
+}
+.bio-container{
+    color: black;
+}
+.redes-container{
+    color: black;
+}
