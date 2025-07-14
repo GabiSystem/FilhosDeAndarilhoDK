@@ -1,10 +1,18 @@
-//funão que vai carregar json com todas informações do perfil
+//funções que vai carregar json com todas informações do perfil
 async function loadProfileList() {
     try{
         const response = await fetch(`https://gabisystem.github.io/FilhosDeAndarilhoDK/data/members.json?nocache=${Date.now()}`);
         const data = await response.json();
         return(data);
-    } catch(error){ console.error ('Erro, não foi possivel baixar o JSON'); return(null)}
+    } catch(error){ console.error ('Erro, não foi possivel baixar o JSON de perfil'); return(null)}
+}
+async function loadArticleList() {
+    try{
+        const response = await fetch(`https://gabisystem.github.io/FilhosDeAndarilhoDK/data/artigos.json?nocache=${Date.now()}`);
+        const data = await response.json();
+        const listaArtigos = data.artigos;
+        return(listaArtigos);
+    } catch{ console.log("Erro, não foi possivel baixar o JSON de artigos"); return(null) }
 }
 //função que puxa info da url
 function urlReader(){
@@ -44,6 +52,14 @@ async function workData(){
     }
     htmlWriter(userData);
 }
+//Funão pra fazer aparecer o titulo do personagem
+function titleConstructor(title){
+    let container = '';
+    if(title && title.trim() !==''){
+        container += `${title}`
+        return(container)
+    } else { return(container)}
+}
 //função para construir o html das redes sociais
 function redeContructor(discord, btag, youtube, youtag, insta){
     let resultReturn = '';
@@ -51,8 +67,8 @@ function redeContructor(discord, btag, youtube, youtag, insta){
         const tag = discord;
         resultReturn += `<a>
                             <div class="icon">
-                                <img src="../assets/img/icons/disc.jpg">
-                                <span>${tag}</span>
+                                <img src="../assets/img/icons/discord.webp">
+                                <div>${tag}</div>
                             </div>
                         </a>`
     }
@@ -60,8 +76,8 @@ function redeContructor(discord, btag, youtube, youtag, insta){
         const tag = btag;
         resultReturn += `<a>
                             <div class="icon">
-                                <img src="../assets/img/icons/btag.jpg">
-                                <span>${tag}</span>
+                                <img src="../assets/img/icons/bnet.webp">
+                                <div>${tag}</div>
                             </div>
                         </a>`
     }
@@ -70,38 +86,71 @@ function redeContructor(discord, btag, youtube, youtag, insta){
         const name = youtag;
         resultReturn += `<a href="${link}">
                                     <div class="icon">
-                                        <img src="../assets/img/icons/ytb.jpg">
-                                        <spam>${name}</spam>
-                                    </div>`
+                                        <img src="../assets/img/icons/youtube.webp">
+                                        <div>${name}</div>
+                                    </div>
+                        </a>`
     }
     if (insta && insta.trim() !== ''){
         const arroba = insta;
         resultReturn += `<a href="https://www.instagram.com/${arroba}}/">
                                     <div class="icon">
-                                        <img src="../assets/img/icons/insta.jpg">
-                                        <spam>@${arroba}</spam>
-                                    </div>`
+                                        <img src="../assets/img/icons/insta.webp">
+                                        <div>@${arroba}</div>
+                                    </div>
+                        </a>`
     }
     return(resultReturn);
 }
-function titleConstructor(title){
-    let container = '';
-    if(title && title.trim() !==''){
-        container += `${title}`
-        return(container)
-    } else { return(container)}
+//função para criar html das aventuras no perfil
+async function advConstructor(userName) {
+    const articlesList = await loadArticleList();
+    let container ='';
+    if (articlesList && articlesList.length > 0){
+        const userArticles = articlesList.filter(article => article.autor === userName);
+        if(userArticles.length > 0){
+            container += `<div class="post-div-title">Aventuras de ${userName}:</div>
+                            <hr>`;
+            userArticles.reverse().forEach(article =>
+                container += `<div class="post-aventura-flex">
+                                <div class=aventura-img-container>
+                                    <a href="${article.url}">
+                                        <img src=${article.img}>
+                                    </a>
+                                </div>
+                                <div class="post-aventura-content">
+                                    <div class="conteudo-titulo">
+                                        <a href="${article.url}">${article.titulo}
+                                        <div class="conteudo-texto">
+                                        <hr>
+                                            ${article.conteudo} <br>
+                                        </div>
+                                        </a>
+                                    </div>
+                                    
+                            </div>
+                    </div>`
+            );
+        } else {container += `<div class="no-articles">
+                                Nenhuma aventura encontrada por ${userName}.
+                            </div>`;}
+    } else {container += `<div class="no-articles">
+                            Nenhum artigo disponível no momento.
+                        </div>`;}
+    return(container);
 }
 //função que vai escrever o html de acordo com os dados do perfil
-function htmlWriter(userData){
+async function htmlWriter(userData){
     const user = userData;
     const container = document.getElementById('perfilContainer');
     const redes = redeContructor(user.discord, user.btag, user.youtube, user.youtag, user.insta);
     const title = titleConstructor(user.title);
+    const adventures = await advConstructor(user.nome)
     container.innerHTML ='';
     container.innerHTML += `<div class="profile-body">
                                 <div class="dados-container">
                                     <div class="profile-photo">
-                                        <img src="${user.img}" width=300px>
+                                        <img src="${user.img}">
                                     </div>
                                     <div class="profile-data">
                                         <div class="profile-name">
@@ -115,16 +164,20 @@ function htmlWriter(userData){
                                 </div>
                                 <div class="content-flexbox">
                                     <div class="flex-left">
-                                        <div class"bio-container">
-                                            lore / bio${user.lore}
-                                        </div>
                                         <div class="redes-container">
-                                            redes sociais${redes}
+                                            <div class="textredes"> Redes Sociais: </div> ${redes}
+                                        </div>
+                                        <div class="lore-container">
+                                            <div class="lore-title">Historia:</div><br>
+                                            <div class="lore-content">${user.lore}</div>
                                         </div>
                                     </div>
                                     <div class="flex-right">
                                         <div class="articles-flex">
-                                        <div>
+                                            <div class="articles-content">
+                                                ${adventures}
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>`
