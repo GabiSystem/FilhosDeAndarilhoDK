@@ -17,6 +17,15 @@
             "data": "2025-06-30",
             "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article2.html",
             "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/pages/articles/assets/img/article2-1.webp"
+        },
+        {
+            "id": 2,
+            "titulo": "Ecos de Gelo e Sangue",
+            "conteudo": "Depois de acabar com todos os fronts de guerra do Lich Rei, dando uma extrema vantagem para Horda...",
+            "autor": "Kallnorad",
+            "data": "2025-07-14",
+            "url": "https://gabisystem.github.io/FilhosDeAndarilhoDK/pages/articles/article3.html",
+            "img": "https://raw.githubusercontent.com/GabiSystem/FilhosDeAndarilhoDK/refs/heads/main/pages/articles/assets/img/article3-1.webp"
         }
     ]
 }
