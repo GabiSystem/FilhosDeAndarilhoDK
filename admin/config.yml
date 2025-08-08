@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: GabiSystem/FilhosDeAndarilhoDK
+  branch: main
+  auth_type: implicit
+  app_id: Ov23liy7QFFywAsw7jvc
+  use_graphql: true
+
+media_folder: "pages/articles/assets/img"
+public_folder: "/pages/articles/assets/img"
+
+collections:
+  - name: "artigos"
+    label: "Artigos"
+    folder: "pages/articles"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Autor", name: "author", widget: "string" }
+      - { label: "Imagem de Capa", name: "thumbnail", widget: "image" }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
